@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акции "Вкусно – и Дима"</title>
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="IMG/icon.png">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="basehead">
+            <div class="center">
+                <p class="headtxt container">
+                    <a href="home.html"><img src="IMG/logo.png" class="logo"> <span class="Vkusno">ВКУСНО – И ДИМА</span></a>
+                </p>
+            </div>
+            <div class="center">
+                <div class="head-nav container">
+                    <nav class="navigator">
+                        <a class="pages" href="menu.html">Меню</a>
+                        <a class="pagesa page" href="stocks.html">Акции</a>
+                        <a class="pages page" href="news.html">Новости</a>
+                        <a class="pages page" href="app.html">Наше приложение</a>
+                    </nav>
+                    
+                </div>
+            </div>
+        </div>
+        <p class="user"><img src="IMG/user-logo/user.png" class="userlogo">Для Дмитрия</p>
+    </header>
+
+
+    <div class="center">
+        <div class="container">
+            <span class="headTxtSection headingVideo">Бонус за вход на страницу!</span>
+            <!--Плеер-->
+            <div class="video">
+                <video
+                    id="my-video"
+                    class="video-js"
+                    controls
+                    preload="auto"
+                    width="640"
+                    height="264"
+                    poster="MP4/video.jpg"
+                    data-setup="{}" >
+            
+                    <source src="MP4/video.mp4" type="video/mp4" />
+                    <source src="MP4/video.webm" type="video/webm" />
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="https://videojs.com/html5-video-support/" target="_blank" >supports HTML5 video</a>
+                    </p>
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+    
+</body>
+</html>
