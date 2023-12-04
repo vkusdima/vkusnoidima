@@ -196,6 +196,7 @@ a .Vkusno{
 .imgDish{
     max-width: 97%;
     max-height: 60%;
+    margin-left: 7%;
 }
 .nameDish{
     text-align: center;
@@ -226,13 +227,17 @@ a .Vkusno{
 }
 .PS a{
     color: rgb(109, 109, 109);
+    text-decoration: underline;
+}
+.PS a:hover{
+    color: rgb(145, 145, 145);
 }
 
 .mail{
     margin-bottom: 60px;
 }
 .sectionMail{
-    background-color: rgb(255, 102, 0);
+    background-color: rgb(255, 138, 60);
     background-image: url(../IMG/mail/picture.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -314,7 +319,11 @@ a .Vkusno{
     z-index: 1;
 }
 
-
+@media (max-width: 660px) {
+    .sectionDish{
+        max-width: 40%;
+    }
+}
 @media (max-width: 578px) {
     .header {
         height:14%;
@@ -330,7 +339,7 @@ a .Vkusno{
         width: 100%
     }
     .sectionMail{
-        background: rgb(255, 102, 0);
+        background: rgb(255, 138, 60);
         display: block;
     }
     .promo{

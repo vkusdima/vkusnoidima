@@ -1,8 +1,10 @@
 var timer;
 active.onclick = function(){
     if(inputInMail.value == "BlackChurka" || inputInMail.value == "GreenTochka" ||
-    inputInMail.value == "VkusniDima" || inputInMail.value == ""){
-        if(inputInMail.value == "BlackChurka"){
+    inputInMail.value == "VkusniDima" || inputInMail.value == "BlackChurka " || 
+    inputInMail.value == "GreenTochka " || inputInMail.value == "VkusniDima " || 
+    inputInMail.value == ""){
+        if(inputInMail.value == "BlackChurka" || inputInMail.value == "BlackChurka "){
             document.getElementById("cats1").style.position = "inherit";
             document.getElementById("cats2").style.position = "inherit";
             document.getElementById("cats3").style.position = "inherit";
@@ -17,7 +19,7 @@ active.onclick = function(){
             document.getElementById("cats4").style.position = "fixed";
             document.getElementById("cats5").style.position = "fixed";
         }
-        if(inputInMail.value == "GreenTochka"){
+        if(inputInMail.value == "GreenTochka" || inputInMail.value == "GreenTochka "){
             let background = 0;
             timer = setInterval(function() {
                 if(background == 0){
@@ -71,9 +73,10 @@ active.onclick = function(){
             }, 2000);
         }
 
-        if(inputInMail.value == "VkusniDima"){
+        if(inputInMail.value == "VkusniDima" || inputInMail.value == "VkusniDima "){
 
         }
     }
     else{alert("Промокода либо никогда не существовало, либо он устарел.\nПроверься у доктора, чурка!!((");}
+    inputInMail.value = "";
 }
