@@ -210,6 +210,12 @@ a .Vkusno{
     font-weight: 500;
     margin: 0;
 }
+.nogramsDish{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 0;
+}
 .priceDish{
     margin-top: 0;
     font-weight: 900;
@@ -319,14 +325,25 @@ a .Vkusno{
     z-index: 1;
 }
 
+
+
+
 @media (max-width: 660px) {
     .sectionDish{
         max-width: 40%;
     }
 }
+@media (max-width: 610px){
+    .pages{
+        text-align: center;
+    }
+    .pagesa{
+        text-align: center;
+    }
+}
 @media (max-width: 578px) {
     .header {
-        height:14%;
+        height:17%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -357,4 +374,70 @@ a .Vkusno{
     .lense{
         display: none;
     }
+}
+
+
+
+
+
+
+
+.oneOfLocal{
+    font-size: 15px;
+    color: rgb(190, 190, 190);
+    margin-bottom: 0;
+}
+.twoOfLocal{
+    font-size: 15px;
+    margin-top: 0;
+    padding-top: 4px;
+}
+.grayBG{
+    width: 49%;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(243, 243, 243);
+}
+.orangeBG{
+    color: rgb(255, 255, 255);
+    width: 49%;
+    height: 70px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(235, 128, 66);
+}
+.choose{
+    margin-left: auto;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 20px;
+}
+.choose:hover{
+    cursor:no-drop;
+}
+.download{
+    margin-left: auto;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 20px;
+}
+.download:hover{
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+}
+.displayflex{
+    display: flex;
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.marbotStocks{
+    margin-bottom: 30px;
 }
