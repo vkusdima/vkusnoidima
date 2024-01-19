@@ -394,15 +394,17 @@ a .Vkusno{
 }
 .grayBG{
     width: 49%;
+    min-height: 90px;
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgb(243, 243, 243);
 }
 .orangeBG{
+    margin-left: 5px;
     color: rgb(255, 255, 255);
     width: 49%;
-    height: 70px;
+    height: 90px;
     border-radius: 15px;
     padding-left: 20px;
     padding-right: 20px;
@@ -431,6 +433,14 @@ a .Vkusno{
     background-color: rgb(233, 233, 233);
     cursor: pointer;
 }
+.orangeBG:hover{
+    background: url(../IMG/mail/qr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-color: rgb(235, 128, 66);
+}
+
 .displayflex{
     display: flex;
     align-items: center;
@@ -440,4 +450,24 @@ a .Vkusno{
 }
 .marbotStocks{
     margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 460px){
+    .orangeBG{
+        height: 150px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .grayBG{
+        height: 150px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .headTxtSection{
+        font-size: 23px;
+    }
 }
