@@ -16,7 +16,7 @@ a{
     justify-content: center;
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0;
 }
 
@@ -343,7 +343,7 @@ a .Vkusno{
 }
 @media (max-width: 578px) {
     .header {
-        height:17%;
+        height:12%;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -469,5 +469,139 @@ a .Vkusno{
     }
     .headTxtSection{
         font-size: 23px;
+    }
+}
+
+
+
+.sectionZero{
+    height: 100px;
+    background: url(../IMG/app/sectionInfoAboutApp.jpg) no-repeat;
+    background-size: 100%;
+}
+.section-appInfo{
+    height: 600px;
+    background: url(../IMG/app/sectionInfoAboutApp.jpg) no-repeat;
+    background-size: 100%;
+}
+.marTandL{
+    color:#fff;
+    padding-top: 60px;
+}
+.spanHeadSize{
+    font-size: 60px;
+}
+.txt-appInfo{
+    width: 40%;
+    margin-left: auto;
+    font-size: 19px;
+}
+.dflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 1397px){
+    .spanHeadSize{
+        font-size: 40px;
+    }
+    .txt-appInfo{
+        width: 50%;
+    }
+}
+
+@media (max-width: 1281px){
+    .spanHeadSize{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1281px){
+    .spanHeadSize{
+        font-size: 30px;
+    }
+    .txt-appInfo{
+        width: 50%;
+    }
+}
+@media (max-width: 1025px){
+    .marTandL{
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .spanHeadSize{
+        padding-left: 30%;
+    }
+    .txt-appInfo{
+        margin-left: 0;
+        width: 80%;
+        padding-left: 25%;
+    }
+    .txt-appInfo{
+        font-size: 17px;
+    }
+    .dflex{
+        display: block;
+    }
+    .marTandL{
+        padding-top: 100px;
+    }
+}
+@media (max-width: 770px){
+    .spanHeadSize{
+        font-size: 25px;
+    }
+    .txt-appInfo{
+        margin-left: 0;
+        padding-left: 20%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 670px){
+    .spanHeadSize{
+        font-size: 25px;
+    }
+    .txt-appInfo{
+        margin-left: 0;
+        padding-left: 20%;
+        font-size: 14px;
+    }
+    .marTandL{
+        padding-top: 40px;
+    }
+    .sectionZero{
+        height: 110px;
+    }
+}
+@media (max-width: 570px){
+    .sectionZero{
+        height: 90px;
+    }
+    .marTandL{
+        padding-top: 20px;
+    }
+    .spanHeadSize{
+        padding-left: 27%;
+        font-size: 25px;
+    }
+    .txt-appInfo{
+        padding-left: 27%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px){
+    .marTandL{
+        padding-top: 30px;
+    }
+    .spanHeadSize{
+        padding-left: 22%;
+        font-size: 22px;
+    }
+    .txt-appInfo{
+        padding-left: 16%;
+        font-size: 12px;
+        width: 90%;
     }
 }
