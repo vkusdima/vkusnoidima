@@ -456,13 +456,13 @@ a .Vkusno{
 
 @media (max-width: 460px){
     .orangeBG{
-        height: 150px;
+        height: 180px;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
     }
     .grayBG{
-        height: 150px;
+        height: 180px;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
@@ -526,6 +526,9 @@ a .Vkusno{
     }
 }
 @media (max-width: 1025px){
+    .section-appInfo{
+        height: 100%;
+    }
     .marTandL{
         padding-top: 30px;
         padding-left: 0;
@@ -603,5 +606,220 @@ a .Vkusno{
         padding-left: 16%;
         font-size: 12px;
         width: 90%;
+    }
+}
+@media (max-width: 450px){
+    .marTandL{
+        padding-top: 30px;
+    }
+    .spanHeadSize{
+        padding-left: 22%;
+        font-size: 20px;
+    }
+    .txt-appInfo{
+        padding-left: 16%;
+        font-size: 70%;
+        width: 90%;
+    }
+}
+@media (max-width: 390px){
+    .marTandL{
+        padding-top: 20px;
+    }
+    .spanHeadSize{
+        padding-left: 22%;
+        font-size: 20px;
+    }
+    .txt-appInfo{
+        padding-left: 16%;
+        font-size: 70%;
+        width: 90%;
+    }
+}
+
+
+.disflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nik{
+    font-size: 26px;
+    margin-bottom: 0;
+}
+.name{
+    margin-top: 0;
+    font-size: 12px;
+}
+.ariiisss{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: 160px;
+}
+.rampart{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 200px;
+    margin-top: 70px;
+    margin-bottom: 160px;
+}
+
+@media (max-width: 990px){
+    .ariiisss{
+        margin-left: 20%;
+    }
+    .rampart{
+        margin-right: 20%;
+    }
+}
+@media (max-width: 560px){
+    .ariiisss{
+        margin-left: 20px;
+    }
+    .rampart{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 465px){
+    .nik{
+        font-size: 23px;
+    }
+    .name{
+        font-size: 10px;
+    }
+    .ariiisss{
+        margin-top: 40px;
+        margin-bottom: 130px;
+    }
+    .rampart{
+        margin-top: 40px;
+        margin-bottom: 130px;
+    }
+}
+
+
+.section-downloadApp{
+    height: 600px;
+    background: url(../IMG/app/sectionTwoInfoApp.jpg) no-repeat;
+    background-size: 100%;
+}
+.downloadApp{
+    padding: 60px 90px;
+    border-radius: 70px;
+    border: 0;
+    background-color: #ffffff56;
+    font-size: 30px;
+    font-weight: 700;
+    color:#fff;
+    transition: background 1s;
+}
+.downloadApp:hover{
+    cursor: pointer;
+    background-color: #ffffffaf;
+}
+.txt-appDown{
+    width: 40%;
+    margin-right: auto;
+    font-size: 19px;
+}
+
+@media (max-width: 1025px){
+    .marginleft{
+        margin-left: 0;
+    }
+    .marginleft{
+        margin-left: 6%;
+    }
+    .downloadApp{
+    padding: 40px 60px;
+    border-radius: 70px;
+    font-size: 24px;
+    margin-left: 37%;
+    }
+    .txt-appDown{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+@media (max-width: 825px){
+    .downloadApp{
+    padding: 20px 30px;
+    border-radius: 70px;
+    font-size: 20px;
+    margin-left: 40%;
+    }
+}
+@media (max-width: 730px){
+    .downloadApp{
+    padding: 20px 30px;
+    border-radius: 70px;
+    font-size: 20px;
+    margin-left: 40%;
+    }
+    .txt-appDown{
+        width: 60%;
+        margin-left: 25%;
+    }
+}
+@media (max-width: 568px){
+    .txt-appDown{
+        width: 70%;
+        margin-left: 18%;
+    }
+    .downloadApp{
+    margin-left: 34%;
+    }
+}
+@media (max-width: 520px){
+    .txt-appDown{
+        font-size: 15px;
+        width: 70%;
+        margin-left: 18%;
+    }
+    .downloadApp{
+        padding: 17px 30px;
+        border-radius: 70px;
+        font-size: 15px;
+        margin-left: 35%;
+    }
+}
+@media (max-width: 520px){
+    .marginleft{
+        margin-left: 0;
+    }
+    .marginleft{
+        margin-left: 12%;
+    }
+    .txt-appDown{
+        font-size: 15px;
+        width: 80%;
+        margin-left: 13%;
+    }
+    .downloadApp{
+        padding: 17px 30px;
+        border-radius: 70px;
+        font-size: 15px;
+        margin-left: 35%;
+    }
+}
+@media (max-width: 403px){
+    .marginleft{
+        margin-left: 0;
+    }
+    .marginleft{
+        margin-left: 9%;
+    }
+    .txt-appDown{
+        font-size: 12px;
+        width: 80%;
+        margin-left: 13%;
+    }
+    .downloadApp{
+        padding: 10px 30px;
+        border-radius: 70px;
+        font-size: 15px;
+        margin-left: 32%;
     }
 }
