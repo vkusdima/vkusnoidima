@@ -823,3 +823,47 @@ a .Vkusno{
         margin-left: 32%;
     }
 }
+
+
+.dispflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexWrap{
+    flex-wrap: wrap;
+}
+.historyBlock{
+    width: 450px;
+    height: 500px;
+    box-shadow: 2px 0 20px #00000025;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.historyImg{
+    height: 200px;
+}
+.historyDate{
+    font-size: 17px;
+    font-weight: 400;
+    color:#727272;
+}
+.historyTxt{
+    font-size: 18px;
+    color:#313131;
+}
+
+.footerNews{
+    margin: 20px;
+    color: #fff;
+}
+.ps{
+    font-size: 10px;
+}
+@media (max-width: 490px){
+    .historyTxt{
+        font-size: 15px;
+    }
+}
